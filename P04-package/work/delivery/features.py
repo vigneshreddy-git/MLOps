@@ -20,4 +20,10 @@ def describe_order(order):
 
 def average_speed_kmph(distance_km, delivery_min):
     "Average speed of a delivery, in kilometres per hour."
+    # TODO: return the speed
+    return None
+
+def average_speed_kmph(distance_km, delivery_min):
+    """Average speed of a delivery, in kilometres per hour."""
+    # Calculate the speed in kilometres per hour
     return distance_km / (delivery_min / 60)
